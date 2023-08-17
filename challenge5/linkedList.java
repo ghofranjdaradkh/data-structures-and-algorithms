@@ -12,7 +12,8 @@ class LinkedList {
 
         System.out.println(list);
         System.out.println(list.linkedListToString());
-        System.out.println(list.linkedListInclude(5));
+        System.out.println("Includes 5: " + list.linkedListInclude(5));
+
 
         Node current = list.head;
         while (current != null) {
