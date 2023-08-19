@@ -23,8 +23,12 @@
 5. Run the code to be sure is it correct 
 6. Drawing the data structure in white board >>this step it take big time 
 
-
+## Time Complexity (O(n))
+## Space Complexity (O(n))
 ## Solution
 <!-- Show how to run your code, and examples of it in action -->
 this the output in the terminal :
 ![Alt text](pic/resuslt2.PNG)
+with complixity :
+![Alt text](pic/whiteboardcc2.png)
+
