@@ -1,6 +1,6 @@
 # data-structures-and-algorithms
 
-# Challenge 3
+# Challenge 6
 <!-- Description of the challenge -->
 ## linked-list-insertions
 1.create linkedlist 
