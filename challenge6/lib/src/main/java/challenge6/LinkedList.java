@@ -1,4 +1,4 @@
-package challenge6.lib.src.main.java.challenge6;
+package challenge6;
 
 public class LinkedList {
     Node head;
