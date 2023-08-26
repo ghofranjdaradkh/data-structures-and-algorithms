@@ -20,21 +20,20 @@ public class LinkedListKth {
             throw new IllegalArgumentException("k is Negative");
         }
 
-        if (count >= K) {
-            current = head;
-            for (int i = 1; i < count - K; i++) {
-                current = current.next;
-            }
+        if (count <= K) {
+            throw new IllegalArgumentException("k is greater than the length of the list");
         }
 
-        else {
-            throw new IllegalArgumentException("k is greater than the length of the list");
+        current = head;
+        for (int i = 1; i < (count - K); i++) {
+            current = current.next;
         }
 
         return current.data;
     }
 
-    public void insert(int newValue) {
+
+    public void append(int newValue) {
         Node newNode = new Node(newValue);
         if (head == null) {
             head = newNode;
@@ -62,11 +61,11 @@ public class LinkedListKth {
 
 
     class Node {
-    int data;
-    Node next;
+        int data;
+        Node next;
 
-    Node(int data) {
-        this.data = data;
-        this.next = null;
-    }
-}}
+        Node(int data) {
+            this.data = data;
+            this.next = null;
+        }
+    }}
