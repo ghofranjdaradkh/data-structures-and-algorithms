@@ -5,6 +5,16 @@ public class LinkedList {
 
 
 
+   public class Node {
+        int data;
+        public Node next;
+
+        // constructor
+        Node(int data) {
+            this.data = data;
+            this.next = null;
+        }
+    }
 
 
 
@@ -38,13 +48,4 @@ public class LinkedList {
     }
 }
 
-    public class Node {
-        int data;
-        public Node next;
-
-        // constructor
-        Node(int data) {
-            this.data = data;
-            this.next = null;
-        }
-    }
+ 
