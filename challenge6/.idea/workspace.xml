@@ -5,10 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5f0e4bc-9b45-4948-a114-d8774a046a3b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge8/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge8/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge8/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge8/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge8/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge8/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge8/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge8/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge8/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge8/lib/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge8/lib/src/main/java/challenge8/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge8/lib/src/main/java/challenge8/linkedListZip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge8/lib/src/test/java/challenge8/LibraryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge8/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/challenge6/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/challenge6/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../readmecc6.md" beforeDir="false" afterPath="$PROJECT_DIR$/../readmecc6.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../challenge7/lib/src/main/java/challenge7/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../challenge7/lib/src/main/java/challenge7/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../challenge7/lib/src/main/java/challenge7/LinkedListKth.java" beforeDir="false" afterPath="$PROJECT_DIR$/../challenge7/lib/src/main/java/challenge7/LinkedListKth.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +68,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/CW/data-structures-and-algorithms/readmecc6.md",
+    "last_opened_file_path": "C:/Users/CW/data-structures-and-algorithms/challenge8",
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
@@ -174,5 +190,16 @@
       <updated>1692623767624</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lib/src/main/java/challenge6/Library.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
