@@ -1,20 +1,16 @@
-package challenge5;
+package challenge5linkedlist;
 
 public class LinkedList {
     public Node head;
 
 
 
-   public class Node {
-        int data;
-        public Node next;
 
-        // constructor
-        Node(int data) {
-            this.data = data;
-            this.next = null;
-        }
-    }
+
+
+ 
+
+
 
 
 
@@ -48,4 +44,17 @@ public class LinkedList {
     }
 }
 
+ class Node {
+    int data;
+    public Node next;
+
+    // constructor
+    Node(int data) {
+        this.data = data;
+        this.next = null;
+    }
+}
+
+
  
+
