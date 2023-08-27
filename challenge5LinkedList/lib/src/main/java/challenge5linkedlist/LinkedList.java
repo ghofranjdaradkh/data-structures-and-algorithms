@@ -6,16 +6,7 @@ public class LinkedList {
 
 
 
-    public class Node {
-        int data;
-        public Node next;
 
-        // constructor
-        Node(int data) {
-            this.data = data;
-            this.next = null;
-        }
-    }
 
     public void linkedListInsert(int data) {
         Node newItem = new Node(data);
@@ -46,3 +37,14 @@ public class LinkedList {
         return result.toString();
     }
 }
+
+    public class Node {
+        int data;
+        public Node next;
+
+        // constructor
+        Node(int data) {
+            this.data = data;
+            this.next = null;
+        }
+    }
