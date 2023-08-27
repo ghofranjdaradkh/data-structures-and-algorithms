@@ -44,8 +44,7 @@ c. If K is greater than the length of the list, throw an exception with the mess
 ## Solution
 <!-- Show how to run your code, and examples of it in action -->
 this the output in the terminal :
-run :
-![runcc7.PNG](pic%2Fruncc7.PNG)
+
 test cases :
 ![testcasescc7.PNG](pic%2Ftestcasescc7.PNG)
 gradlew test :
