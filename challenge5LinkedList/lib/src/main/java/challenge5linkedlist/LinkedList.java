@@ -8,6 +8,12 @@ public class LinkedList {
 
 
 
+ 
+
+
+
+
+
     public void linkedListInsert(int data) {
         Node newItem = new Node(data);
         newItem.next = head;
@@ -37,6 +43,7 @@ public class LinkedList {
         return result.toString();
     }
 }
+
  class Node {
     int data;
     public Node next;
@@ -47,3 +54,7 @@ public class LinkedList {
         this.next = null;
     }
 }
+
+
+ 
+
