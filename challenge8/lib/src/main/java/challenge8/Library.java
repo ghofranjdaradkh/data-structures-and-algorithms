@@ -24,6 +24,6 @@ public class Library {
         linkedListZip zippedList = new linkedListZip();
         zippedList.head = zippedList.zipLists(list1.head, list2.head);
 
-        System.out.println(zippedList); // Output: 1 -> 2 -> 3 -> 4 -> 5 -> 6
+        System.out.println(zippedList);
     }
 }
