@@ -17,11 +17,11 @@ class LibraryTest {
 
         LinkedListKth listKth =new LinkedListKth();
         //act
-        listKth.insert(1);
-        listKth.insert(2);
-        listKth.insert(3);
-        listKth.insert(4);
-        listKth.insert(5);
+        listKth.append(1);
+        listKth.append(2);
+        listKth.append(3);
+        listKth.append(4);
+        listKth.append(5);
 
         Throwable exception = assertThrows(IllegalArgumentException.class, () -> {
             listKth.findKthValue(6);
@@ -34,27 +34,28 @@ class LibraryTest {
 
         LinkedListKth listKth =new LinkedListKth();
         //act
-        listKth.insert(1);
-        listKth.insert(2);
-        listKth.insert(3);
-        listKth.insert(4);
-        listKth.insert(5);
+        listKth.append(1);
+        listKth.append(2);
+        listKth.append(3);
+        listKth.append(4);
+        listKth.append(5);
 
-        int result = listKth.findKthValue(5);
-
+        Throwable exception = assertThrows(IllegalArgumentException.class, () -> {
+            listKth.findKthValue(5);
+        });
         //assert
-        assertEquals(1, result);
+        assertEquals("k is greater than the length of the list", exception.getMessage());
     }
     @Test void kNegativeTest (){
         //arrange
 
         LinkedListKth listKth =new LinkedListKth();
         //act
-        listKth.insert(1);
-        listKth.insert(2);
-        listKth.insert(3);
-        listKth.insert(4);
-        listKth.insert(5);
+        listKth.append(1);
+        listKth.append(2);
+        listKth.append(3);
+        listKth.append(4);
+        listKth.append(5);
 
         Throwable exception = assertThrows(IllegalArgumentException.class, () -> {
              listKth.findKthValue(-1);
@@ -68,11 +69,11 @@ class LibraryTest {
 
         LinkedListKth listKth =new LinkedListKth();
         //act
-        listKth.insert(1);
-        listKth.insert(2);
-        listKth.insert(3);
-        listKth.insert(4);
-        listKth.insert(5);
+        listKth.append(1);
+        listKth.append(2);
+        listKth.append(3);
+        listKth.append(4);
+        listKth.append(5);
 
 
         int result = listKth.findKthValue(3);
@@ -86,13 +87,13 @@ class LibraryTest {
 
         LinkedListKth listKth =new LinkedListKth();
         //act
-        listKth.insert(1);
+        listKth.append(4);
 
 
-        int result = listKth.findKthValue(1);
+        int result = listKth.findKthValue(0);
 
         //assert
-        assertEquals(1, result);
+        assertEquals(4, result);
     }
 
 }
