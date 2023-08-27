@@ -20,7 +20,7 @@ public class LinkedListKth {
             throw new IllegalArgumentException("k is Negative");
         }
 
-        if (count <= K) {
+        if (count <=  K) {
             throw new IllegalArgumentException("k is greater than the length of the list");
         }
 
@@ -40,9 +40,9 @@ public class LinkedListKth {
         } else {
             Node current = head;
             while (current.next != null) {
-                current = current.next;
+                current = current.next; //ensures that the current pointer points to the last node
             }
-            current.next = newNode;
+            current.next = newNode; //newNode to become the new last node
         }
     }
 

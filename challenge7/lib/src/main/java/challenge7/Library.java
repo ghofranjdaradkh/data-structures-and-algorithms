@@ -6,7 +6,7 @@ public class Library {
         list.append(1); //1 -> null
         list.append(3); //1 -> 3 - > null
         list.append(8); //  1 -> 3 -> 8 -> null
-        list.append(2); // -> 3 -> 8 -> 2 -> null
+        list.append(2); //1 -> 3 -> 8 -> 2 -> null
 
         try {
             System.out.println("Linked List: " + list);
