@@ -5,48 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2839454d-ea5b-4028-b6fa-38973b4609c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../challenge9/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../challenge9/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../challenge9/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../challenge9/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../challenge9/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../challenge9/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../challenge9/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../challenge9/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../challenge9/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../challenge9/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../challenge9/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../challenge9/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../challenge9/lib/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../challenge9/lib/src/main/java/challenge9/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../challenge9/lib/src/main/java/challenge9/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../challenge9/lib/src/main/java/challenge9/reverseArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../challenge9/lib/src/test/java/challenge9/LibraryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../challenge9/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/datastructue/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/datastructue/Queue/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/datastructue/Queue/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/datastructue/Stack/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/main/java/datastructue/Stack/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/test/java/datastructue/LibraryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pic/code lab 8.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReadmeDS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pic/gradlewDS.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pic/outputDS.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pic/outputRunDS.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../challenge6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../challenge6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../challenge9/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../challenge9/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../challenge9/lib/src/main/java/challenge9/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../challenge9/lib/src/main/java/challenge9/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../challenge9/lib/src/main/java/challenge9/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/../challenge9/lib/src/main/java/challenge9/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../challenge9/lib/src/main/java/challenge9/reverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../challenge9/lib/src/main/java/challenge9/reverseArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../challenge9/lib/src/test/java/challenge9/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../challenge9/lib/src/test/java/challenge9/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pic/TESTCASSES8.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pic/outputlab8.PNG" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +73,7 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.LibraryTest">
+  <component name="RunManager">
     <configuration name="LibraryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />

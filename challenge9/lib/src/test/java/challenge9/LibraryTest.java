@@ -7,8 +7,33 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class LibraryTest {
-    @Test void someLibraryMethodReturnsTrue() {
-        Library classUnderTest = new Library();
-        assertTrue(classUnderTest.someLibraryMethod(), "someLibraryMethod should return 'true'");
+
+    @Test
+    public void testReverseLinkedList() {
+        // Arrange
+        reverseArray list = new reverseArray();
+        list.append(1);
+        list.append(2);
+        list.append(3);
+
+        // Act
+        list.reverseLinkedList();
+
+        // Assert
+        assertEquals("head > 3 > 2 > 1", list.toString());
     }
+
+    @Test
+    public void testReverseEmptyLinkedList() {
+        // Arrange
+        reverseArray list = new reverseArray();
+
+        // Act
+        list.reverseLinkedList();
+
+        // Assert
+        assertEquals("head", list.toString());
+    }
+
+
 }
