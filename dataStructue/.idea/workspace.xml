@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2839454d-ea5b-4028-b6fa-38973b4609c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ReadmeDS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pic/gradlewDS.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pic/outputDS.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pic/outputRunDS.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../challenge6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../challenge6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../challenge9/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../challenge9/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../challenge9/lib/src/main/java/challenge9/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../challenge9/lib/src/main/java/challenge9/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../challenge9/lib/src/main/java/challenge9/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/../challenge9/lib/src/main/java/challenge9/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../challenge9/lib/src/main/java/challenge9/reverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../challenge9/lib/src/main/java/challenge9/reverseArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../challenge9/lib/src/test/java/challenge9/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../challenge9/lib/src/test/java/challenge9/LibraryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pic/TESTCASSES8.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pic/outputlab8.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
