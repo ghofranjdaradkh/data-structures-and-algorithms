@@ -5,10 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5f0e4bc-9b45-4948-a114-d8774a046a3b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge9/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge9/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge9/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge9/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge9/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge9/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge9/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge9/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge9/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge9/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge9/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge9/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge9/lib/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge9/lib/src/main/java/challenge9/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge9/lib/src/main/java/challenge9/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge9/lib/src/main/java/challenge9/reverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge9/lib/src/test/java/challenge9/LibraryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../challenge9/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pic/code lab 8.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/challenge6/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/challenge6/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../readmecc6.md" beforeDir="false" afterPath="$PROJECT_DIR$/../readmecc6.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pic/TESTCASSES8.PNG" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,16 +65,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/CW/data-structures-and-algorithms/readmecc6.md",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/CW/data-structures-and-algorithms/readmecc6.md&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.challenge6.Library">
     <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="challenge6.lib.src.main.java.challenge6.Library" />
