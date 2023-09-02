@@ -23,7 +23,7 @@ The class should provide the following methods:
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
 # Stack
-![image (34).png](pic%2Fimage%20%2834%29.png)
+![image (36) whiteboard.png](pic%2Fimage%20%2836%29%20whiteboard.png)
 
 # Queue
 ![image (33).png](pic%2Fimage%20%2833%29.png)

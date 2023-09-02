@@ -24,7 +24,7 @@ public class Stack <T> {
             if (isEmpty()) {
                 throw new EmptyStackException();
             }   else {
-                T value =top.data;
+                T value =top.data; //to save the data
                 top =top.next;
                 return value;
                 }
