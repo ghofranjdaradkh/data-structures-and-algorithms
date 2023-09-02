@@ -7,10 +7,11 @@ public class challenge3 {
         int arr3[] = {11, 22, 33, 44, 55, 66, 77};
         int arr4[] = {1, 2, 3, 5, 6, 7};
 
-        System.out.println(BinarySearch (arr1, 15));
-        System.out.println(BinarySearch (arr2, 42));
-        System.out.println(BinarySearch (arr3, 90));
-        System.out.println(BinarySearch (arr4, 4));}
+        System.out.println(BinarySearch(arr1, 15));
+        System.out.println(BinarySearch(arr2, 42));
+        System.out.println(BinarySearch(arr3, 90));
+        System.out.println(BinarySearch(arr4, 4));
+    }
 
     public static int BinarySearch(int[] array, int searchKey) {
 
@@ -27,10 +28,13 @@ public class challenge3 {
                 highIndex = middleIndex - 1;
             } else {
                 lowIndex = middleIndex + 1;
-            }}
+            }
+        }
         return -1;
     }
 }
+
+
 
      
     
