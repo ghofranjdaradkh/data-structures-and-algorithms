@@ -24,7 +24,7 @@ Finally, return the popped value from stack2, which corresponds to dequeue the f
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
 
-![image (37).png](..%2FDownloads%2Fimage%20%2837%29.png)
+![image (37).png](pic%2Fimage%20%2837%29.png)
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 1. The first thing specify the problem (implementation stack and queue classes and Node)
