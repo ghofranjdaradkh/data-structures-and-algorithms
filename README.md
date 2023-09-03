@@ -7,3 +7,4 @@
 | challenge7  | [link to readme challenge7](readmecc7.md)   |
 | challenge8  | [link to readme challenge8](README8.md)     |
 | challenge10 | [link to readme Stack & Queue](ReadmeDS.md) |
+| challenge10 | [link to readme Pseudo Queue](ReadmePS.md)  |
