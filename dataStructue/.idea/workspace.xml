@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2839454d-ea5b-4028-b6fa-38973b4609c6" name="Changes" comment="" />
+    <list default="true" id="2839454d-ea5b-4028-b6fa-38973b4609c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../stack-queue-animal-shelter/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack-queue-animal-shelter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack-queue-animal-shelter/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack-queue-animal-shelter/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack-queue-animal-shelter/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack-queue-animal-shelter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack-queue-animal-shelter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack-queue-animal-shelter/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack-queue-animal-shelter/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack-queue-animal-shelter/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack-queue-animal-shelter/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack-queue-animal-shelter/lib/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack-queue-animal-shelter/lib/src/main/java/stack/queue/animal/shelter/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack-queue-animal-shelter/lib/src/main/java/stack/queue/animal/shelter/AnimalShelter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack-queue-animal-shelter/lib/src/main/java/stack/queue/animal/shelter/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack-queue-animal-shelter/lib/src/test/java/stack/queue/animal/shelter/LibraryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack-queue-animal-shelter/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack-queue-brackets/lib/src/main/java/stack/queue/brackets/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stack-queue-brackets/lib/src/main/java/stack/queue/brackets/validateBrackets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/gradle.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +81,7 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.LibraryTest">
     <configuration name="LibraryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />

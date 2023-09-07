@@ -4,9 +4,25 @@
 package stack.queue.animal.shelter;
 
 public class Library {
-    AnimalShelter shelter = new AnimalShelter();
 
-    // Adding animals to the shelter
+    public static void main(String[] args) {
+        AnimalShelter shelter = new AnimalShelter();
+        shelter.enqueue(new Animal("WAX", "nan"));
+        shelter.enqueue(new Animal("dog", "Buddy"));
+        shelter.enqueue(new Animal("dog", "Rover"));
+        shelter.enqueue(new Animal("cat", "Fluffy"));
+
+        shelter.displayCatQueue();
+        shelter.displayDogQueue();
+
+        Animal DOG=shelter.dequeue("dog");
+        Animal CAT =shelter.dequeue("cat");
+        System.out.println(DOG.name);
+        System.out.println(CAT.name);
+    }
+
+    }
 
 
-}
+
+
