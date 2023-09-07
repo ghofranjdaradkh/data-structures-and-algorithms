@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99a474c8-4850-46f1-ad25-c57159090abf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ReadmeASH.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dataStructue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dataStructue/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/stack/queue/animal/shelter/AnimalShelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/stack/queue/animal/shelter/AnimalShelter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/stack/queue/animal/shelter/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/stack/queue/animal/shelter/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/test/java/stack/queue/animal/shelter/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/stack/queue/animal/shelter/LibraryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../stack-queue-brackets/lib/src/main/java/stack/queue/brackets/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stack-queue-brackets/lib/src/main/java/stack/queue/brackets/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../stack-queue-brackets/lib/src/main/java/stack/queue/brackets/validateBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stack-queue-brackets/lib/src/main/java/stack/queue/brackets/validateBrackets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stack-queue-pseudo/.idea/gradle.xml" afterDir="false" />
@@ -45,15 +44,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/CW/data-structures-and-algorithms/stack-queue-animal-shelter&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/CW/data-structures-and-algorithms"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stack.queue.animal.shelter.Library" />
