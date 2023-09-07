@@ -1,49 +1,53 @@
 package stack.queue.animal.shelter;
 
 import java.util.LinkedList;
-import java.util.NoSuchElementException;
 import java.util.Queue;
 
-public class AnimalShelter <T> {
-    private Queue<Animal> dogQueue;
-    private Queue<Animal> catQueue;
+public class AnimalShelter {
+
+    Queue<Animal> dogQueue;
+    Queue<Animal> catQueue;
 
     public AnimalShelter() {
-        dogQueue = new LinkedList<>(); // Queue for dogs
-        catQueue = new LinkedList<>(); // Queue for cats
+        dogQueue = new LinkedList<>();
+        catQueue = new LinkedList<>();
     }
-
 
     public void enqueue(Animal animal) {
         if ("dog".equals(animal.species)) {
-            dogQueue.add(animal);
+            dogQueue.offer(animal);
         } else if ("cat".equals(animal.species)) {
-            catQueue.add(animal);
+            catQueue.offer(animal);
         }
     }
 
-
     public Animal dequeue(String pref) {
-        if ("dog".equals(pref)) {
-            if (!dogQueue.isEmpty()) {
-                return dogQueue.remove();
-        } else if ("cat".equals(pref)) {
-            if (!catQueue.isEmpty()) {
-                return catQueue.remove();
-            }
+        if ("cat".equals(pref) && !catQueue.isEmpty()) {
+            return catQueue.poll();
+        } else if ("dog".equals(pref) && !dogQueue.isEmpty()) {
+            return dogQueue.poll();
         }
-        return null; }
+        return null;
+    }
+
+
+    public void displayCatQueue() {
+        System.out.print("catQueue: ");
+        for (Animal cat : catQueue) {
+            System.out.print("Name: " + cat.name + " -> Species: " + cat.species + ", ");
+        }
+        System.out.println();
+    }
+
+    public void displayDogQueue() {
+        System.out.print("dogQueue: ");
+        for (Animal dog : dogQueue) {
+            System.out.print("Name: " + dog.name + " -> Species: " + dog.species + ", ");
+        }
+        System.out.println();
+    }
 
 
 
-
-
-
-
-
-
-
-
-
-
+}
 
