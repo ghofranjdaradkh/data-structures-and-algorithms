@@ -23,7 +23,7 @@ In this lab we use stack data structue to validate barackets in the input expres
 <!-- Embedded whiteboard image -->
 ![WHITEBOARD13.png](pic%2FWHITEBOARD13.png)
 
-![image (37).png](pic%2Fimage%20%2837%29.png)
+
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 1. The first thing specify the problem (implementation stack and queue classes and Node)
