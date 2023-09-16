@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="stack.queue.animal.shelter.LibraryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-09-07T23:43:02" hostname="DESKTOP-VQDQFLE" time="0.02">
+  <properties/>
+  <testcase name="testDequeueWhenQueueIsEmpty()" classname="stack.queue.animal.shelter.LibraryTest" time="0.015"/>
+  <testcase name="testEnqueueAndDequeue()" classname="stack.queue.animal.shelter.LibraryTest" time="0.002"/>
+  <testcase name="testEnqueueWithInvalidSpecies()" classname="stack.queue.animal.shelter.LibraryTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
