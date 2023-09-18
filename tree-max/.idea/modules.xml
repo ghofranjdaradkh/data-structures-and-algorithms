@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tree-max.iml" filepath="$PROJECT_DIR$/.idea/modules/tree-max.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib/tree-max.lib.iml" filepath="$PROJECT_DIR$/.idea/modules/lib/tree-max.lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib/tree-max.lib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lib/tree-max.lib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib/tree-max.lib.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lib/tree-max.lib.test.iml" />
+    </modules>
+  </component>
+</project>
