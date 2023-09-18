@@ -13,8 +13,12 @@ public class Library {
        search.add(4);
        search.add(3);
        search.add(5);
+
        System.out.println("inorder method"+search.inOrder(search.getRoot()));
        System.out.println( "preorder method"+ search.preOrder(search.getRoot()));
        System.out.println( "postorder method"+ search.postOrder(search.getRoot()));
+
+       treeMax max=new treeMax();
+       max.findMaximumValue();
    }
 }
