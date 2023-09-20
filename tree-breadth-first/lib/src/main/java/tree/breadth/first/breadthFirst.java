@@ -15,12 +15,12 @@ public class breadthFirst {
             result.add(temp.data);
             System.out.print(temp.data + " ");
 
-            //*add left child to the queue
+
             if (temp.left != null) {
                 queue.add(temp.left);
             }
 
-            //add right right child to the queue
+
             if (temp.right != null) {
                 queue.add(temp.right);
             }
