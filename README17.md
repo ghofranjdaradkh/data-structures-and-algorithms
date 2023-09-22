@@ -3,10 +3,11 @@
 # Challenge 17
 <!-- Description of the challenge -->
 ## Write code to implementation  Breadth First class
-implement  a method called breadth first that take input set of Node (tree) and return list of all values in the tree, in the order they were encountered
+implement  a method called breadth first that take input set of Node (tree) 
+and return list of all values in the tree, in the order they were encountered
 
 Algorthim :
-nitialize an empty list result to store the values of the nodes in breadth-first order.
+initialize an empty list result to store the values of the nodes in breadth-first order.
 
 Initialize an empty queue queue to assist in traversal.
 
@@ -32,7 +33,7 @@ Return the result list containing the values of the binary tree in breadth-first
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
-
+![image (45).png](pic%2Fimage%20%2845%29.png)
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
@@ -53,5 +54,11 @@ Return the result list containing the values of the binary tree in breadth-first
 
 ## Solution
 <!-- Show how to run your code,and examples of it in action -->
+output :
+![out17.PNG](pic%2Fout17.PNG)
+test cases:
+![testcase.PNG](pic%2Ftestcase.PNG)
 
+gradlew test:
+![gradlew17.PNG](pic%2Fgradlew17.PNG)
 
