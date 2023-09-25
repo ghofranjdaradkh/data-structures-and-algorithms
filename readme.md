@@ -11,5 +11,6 @@
 | challenge13 | [link to readme validate Bracket](README13.md)        |
 | challenge15 | [link to readme Trees](README15.md)                   |
 | challenge16 | [link to readme Trees](README16.md)                   |
-| challenge16 | [link to readme Breadth-First-Traversal](README17.md) |
+| challenge17 | [link to readme Breadth-First-Traversal](README17.md) |
+| challenge18 | [link to readme tree-Fuzz-Buzz](README18.md)          |
 
