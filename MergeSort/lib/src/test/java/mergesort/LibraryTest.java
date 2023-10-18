@@ -28,5 +28,5 @@ class LibraryTest {
 
         assertArrayEquals(expected, arr);
     }
-    }
+}
 
