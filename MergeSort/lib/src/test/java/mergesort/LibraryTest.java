@@ -13,7 +13,6 @@ class LibraryTest {
         int[] expected = {1,3, 6, 7, 10, 13, 15};
 
         mergeSort.mergeSort(arr);
-
         assertArrayEquals(expected, arr);
     }
 
