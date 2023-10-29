@@ -6,8 +6,7 @@ which return comparators for sorting Movie objects.
 
 
 
-## pseudo code 
-
+## pseudo code :
 function sortByMostRecentYear(a, b):
 if (a.year > b.year):
 return -1
@@ -16,15 +15,18 @@ return 1
 else:
 return 0
 
-function sortAlphabeticallyIgnoringArticles(a, b):
-titleA = removeLeadingArticles(a.title)
-titleB = removeLeadingArticles(b.title)
+function sortAlphabeticallyIgnoringArticles(a,b):
+ titleA = removeLeadingArticles(a.title)
+ titleB = removeLeadingArticles(b.title)
 return titleA.compareTo(titleB)
 
 function removeLeadingArticles(title):
 return title with leading articles (A, An, The) removed
 
+
+
 ## Time Complexity (Big O): O(1) >>  for this function  sortByMostRecentYear
-## Time Complexity (Big O): O(n)  >>  for this function  sortAlphabeticallyIgnoringArticles
+
+ ## Time Complexity (Big O): O(n)  >>  for this function  sortAlphabeticallyIgnoringArticles
 
 
