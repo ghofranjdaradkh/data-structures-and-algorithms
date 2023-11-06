@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98a9de75-d590-4d75-b55a-b8229208336f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../hashmap-repeated/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hashmap-repeated/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hashmap-repeated/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hashmap-repeated/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hashmap-repeated/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hashmap-repeated/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hashmap-repeated/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hashmap-repeated/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hashmap-repeated/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hashmap-repeated/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hashmap-repeated/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hashmap-repeated/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hashmap-repeated/lib/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hashmap-repeated/lib/src/main/java/hashmap/repeated/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hashmap-repeated/lib/src/main/java/hashmap/repeated/hashMapReapeted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hashmap-repeated/lib/src/test/java/hashmap/repeated/LibraryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hashmap-repeated/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Hashtable/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hashtable/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readmehashmaprepeatedword.md" beforeDir="false" afterPath="$PROJECT_DIR$/../readmehashmaprepeatedword.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
