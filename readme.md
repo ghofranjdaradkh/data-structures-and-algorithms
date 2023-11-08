@@ -17,6 +17,7 @@
 | InsertionSort         | [readmeInsertionSort.md](readmeInsertionSort.md)             |
 | hashtable             | [readmeHashTable.md](readmeHashTable.md)                     |
 | hashMap repeated word | [readmehashmaprepeatedword.md](readmehashmaprepeatedword.md) |
+| tree-intersection     | [tree-intersection .md](tree-intersection.md)                |
 
 
 
