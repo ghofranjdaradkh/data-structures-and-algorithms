@@ -1,6 +1,6 @@
 # data-structures-and-algorithms
 
-# Challenge 31
+# Challenge 32
 <!-- Description of the challenge -->
 create function that takes two binary trees as parameters.
 use HashMap, return a set of values found in both trees.
