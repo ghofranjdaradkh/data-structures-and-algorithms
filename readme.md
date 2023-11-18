@@ -18,9 +18,7 @@
 | hashtable             | [readmeHashTable.md](readmeHashTable.md)                     |
 | hashMap repeated word | [readmehashmaprepeatedword.md](readmehashmaprepeatedword.md) |
 | tree-intersection     | [tree-intersection .md](tree-intersection.md)                |
-
 | hashmap -left-join    | [left-join  .md](left-join.md)                               |
-
 | graphs                | [graphs .md](graphs.md)                                      |
 
 
