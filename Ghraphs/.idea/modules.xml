@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ghraphs.iml" filepath="$PROJECT_DIR$/.idea/modules/Ghraphs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib/Ghraphs.lib.iml" filepath="$PROJECT_DIR$/.idea/modules/lib/Ghraphs.lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib/Ghraphs.lib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lib/Ghraphs.lib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib/Ghraphs.lib.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lib/Ghraphs.lib.test.iml" />
+    </modules>
+  </component>
+</project>

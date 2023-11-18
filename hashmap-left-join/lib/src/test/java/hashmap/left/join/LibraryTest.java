@@ -4,11 +4,66 @@
 package hashmap.left.join;
 
 import org.junit.jupiter.api.Test;
+
+import java.util.HashMap;
+import java.util.Map;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class LibraryTest {
-    @Test void someLibraryMethodReturnsTrue() {
-        Library classUnderTest = new Library();
-        assertTrue(classUnderTest.someLibraryMethod(), "someLibraryMethod should return 'true'");
+    @Test
+    public void testLeftJoinWithSynonymsAndAntonyms() {
+
+        joinLeft joinLeft = new joinLeft();
+        Map<String, String> synonyms = new HashMap<>();
+        Map<String, String> antonyms = new HashMap<>();
+
+        synonyms.put("happy", "joyful");
+        synonyms.put("sad", "unhappy");
+        antonyms.put("happy", "sad");
+
+
+        Map<String, String[]> result = joinLeft.leftJoin(synonyms, antonyms);
+
+
+        assertEquals(2, result.size());
+        assertArrayEquals(new String[]{"joyful", "sad"}, result.get("happy"));
+        assertArrayEquals(new String[]{"unhappy", null}, result.get("sad"));
     }
+    @Test
+    public void testLeftJoinWithEmptyAntonyms() {
+
+        joinLeft joinLeft = new joinLeft();
+        Map<String, String> synonyms = new HashMap<>();
+        Map<String, String> antonyms = new HashMap<>();
+
+        synonyms.put("happy", "joyful");
+        synonyms.put("sad", "unhappy");
+
+
+        Map<String, String[]> result = joinLeft.leftJoin(synonyms, antonyms);
+
+
+        assertEquals(2, result.size());
+        assertArrayEquals(new String[]{"joyful", null}, result.get("happy"));
+        assertArrayEquals(new String[]{"unhappy", null}, result.get("sad"));
+    }
+
+    @Test
+    public void testLeftJoinWithEmptySynonyms() {
+
+        joinLeft joinLeft = new joinLeft();
+        Map<String, String> synonyms = new HashMap<>();
+        Map<String, String> antonyms = new HashMap<>();
+
+        antonyms.put("happy", "sad");
+        antonyms.put("sad", "happy");
+
+
+        Map<String, String[]> result = joinLeft.leftJoin(synonyms, antonyms);
+
+
+        assertEquals(0, result.size());
+    }
+
 }

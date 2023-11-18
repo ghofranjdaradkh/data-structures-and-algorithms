@@ -3,8 +3,8 @@ package hashmap.left.join;
 import java.util.HashMap;
 import java.util.Map;
 
-public class joinleft {
-    public static Map<String, String[]> leftJoin(Map<String, String> synonyms, Map<String, String> antonyms) {
+public class joinLeft {
+    public Map<String, String[]> leftJoin(Map<String, String> synonyms, Map<String, String> antonyms) {
         Map<String, String[]> result = new HashMap<>();
 
         for (String key : synonyms.keySet()) {
