@@ -1,3 +1,4 @@
+
 package stack.queue.brackets;
 
 import java.util.EmptyStackException;
@@ -50,4 +51,4 @@ public class Stack <T> {
             this.next = null;
         }
     }
-}
+
