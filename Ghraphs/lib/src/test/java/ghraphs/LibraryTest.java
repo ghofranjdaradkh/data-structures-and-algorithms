@@ -11,7 +11,7 @@ class LibraryTest {
     @Test
     public void testAddVertex() {
         Graphs graph=new Graphs();
-       Vertex vertex = graph.addVertex(5);
+        Vertex vertex = graph.addVertex(5);
         assertEquals(1, graph.size());
         assertTrue(graph.getVertices().contains(vertex));
     }
@@ -19,8 +19,8 @@ class LibraryTest {
     @Test
     public void testAddEdge() {
         Graphs graph=new Graphs();
-       Vertex vertex1 = graph.addVertex(3);
-     Vertex vertex2 = graph.addVertex(4);
+        Vertex vertex1 = graph.addVertex(3);
+        Vertex vertex2 = graph.addVertex(4);
         graph.addEdge(vertex1, vertex2, 5);
         assertEquals(1, graph.getNeighbors(vertex1).size());
         assertEquals(5, graph.getNeighbors(vertex1).iterator().next().getWeight());
@@ -37,8 +37,8 @@ class LibraryTest {
     @Test
     public void testGetNeighbors() {
         Graphs graph=new Graphs();
-  Vertex vertex1 = graph.addVertex(1);
-       Vertex vertex2 = graph.addVertex(2);
+        Vertex vertex1 = graph.addVertex(1);
+        Vertex vertex2 = graph.addVertex(2);
         graph.addEdge(vertex1, vertex2, 5);
         assertEquals(1, graph.getNeighbors(vertex1).size());
         assertEquals(vertex2, graph.getNeighbors(vertex1).iterator().next().getEnd());
@@ -47,13 +47,13 @@ class LibraryTest {
     @Test
     public void testGetNeighborsWithWeight() {
         Graphs graph=new Graphs();
-     Vertex vertex1 = graph.addVertex(1);
-     Vertex vertex2 = graph.addVertex(2);
+        Vertex vertex1 = graph.addVertex(1);
+        Vertex vertex2 = graph.addVertex(2);
         graph.addEdge(vertex1, vertex2, 4);
 
 
         assertEquals(1, graph.getNeighbors(vertex1).size());
-      Edge edge = graph.getNeighbors(vertex1).iterator().next();
+        Edge edge = graph.getNeighbors(vertex1).iterator().next();
         assertEquals(vertex2, edge.getEnd());
         assertEquals(4, edge.getWeight());
     }
@@ -71,10 +71,10 @@ class LibraryTest {
     @Test
     public void testSingleVertexAndEdge() {
         Graphs graph=new Graphs();
-       Vertex vertex = graph.addVertex(1);
+        Vertex vertex = graph.addVertex(1);
         assertEquals(1, graph.size());
 
-      Vertex neighbor = graph.addVertex(2);
+        Vertex neighbor = graph.addVertex(2);
         graph.addEdge(vertex, neighbor, 3);
 
 

@@ -9,15 +9,15 @@ public class Library {
     public static void main(String[] args) {
         Graphs graph = new Graphs();
 
-   Vertex vertex1 = graph.addVertex(1);
-   Vertex vertex2 = graph.addVertex(2);
-      Vertex vertex3 = graph.addVertex(3);
-//        Vertex vertex4 = graph.addVertex(4);
+        Vertex vertex1 = graph.addVertex(1);
+        Vertex vertex2 = graph.addVertex(2);
+        Vertex vertex3 = graph.addVertex(3);
+        Vertex vertex4 = graph.addVertex(4);
 
 
         graph.addEdge(vertex1, vertex2, 5);
         graph.addEdge(vertex1, vertex3, 3);
-//        graph.addEdge(vertex1, vertex4, 6);
+        graph.addEdge(vertex1, vertex4, 6);
 
 
 
