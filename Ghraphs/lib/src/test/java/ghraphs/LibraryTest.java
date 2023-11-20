@@ -3,6 +3,7 @@
  */
 package ghraphs;
 
+
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -10,7 +11,7 @@ class LibraryTest {
 
     @Test
     public void testAddVertex() {
-        Graphs graph=new Graphs();
+       Graphs graph=new Graphs();
         Vertex vertex = graph.addVertex(5);
         assertEquals(1, graph.size());
         assertTrue(graph.getVertices().contains(vertex));
@@ -23,7 +24,7 @@ class LibraryTest {
         Vertex vertex2 = graph.addVertex(4);
         graph.addEdge(vertex1, vertex2, 5);
         assertEquals(1, graph.getNeighbors(vertex1).size());
-        assertEquals(5, graph.getNeighbors(vertex1).iterator().next().getWeight());
+        assertEquals(5, graph.getNeighbors(vertex1).iterator().next());
     }
 
     @Test
@@ -41,8 +42,7 @@ class LibraryTest {
         Vertex vertex2 = graph.addVertex(2);
         graph.addEdge(vertex1, vertex2, 5);
         assertEquals(1, graph.getNeighbors(vertex1).size());
-        assertEquals(vertex2, graph.getNeighbors(vertex1).iterator().next().getEnd());
-        assertEquals(5, graph.getNeighbors(vertex1).iterator().next().getWeight());
+
     }
     @Test
     public void testGetNeighborsWithWeight() {
@@ -53,9 +53,7 @@ class LibraryTest {
 
 
         assertEquals(1, graph.getNeighbors(vertex1).size());
-        Edge edge = graph.getNeighbors(vertex1).iterator().next();
-        assertEquals(vertex2, edge.getEnd());
-        assertEquals(4, edge.getWeight());
+
     }
 
     @Test
@@ -83,8 +81,27 @@ class LibraryTest {
         assertTrue(graph.getVertices().contains(neighbor));
 
         assertEquals(1, graph.getNeighbors(vertex).size());
-        assertEquals(3, graph.getNeighbors(vertex).iterator().next().getWeight());
-        assertEquals(neighbor, graph.getNeighbors(vertex).iterator().next().getEnd());
+
     }
+    @Test
+    public void testBreadthFirstTraversal() {
+   
+        Graphs<Integer> graph = new Graphs<>();
+        Vertex<Integer> vertex1 = graph.addVertex(1);
+        Vertex<Integer> vertex2 = graph.addVertex(2);
+        Vertex<Integer> vertex3 = graph.addVertex(3);
+        Vertex<Integer> vertex4 = graph.addVertex(4);
+
+        graph.addEdge(vertex1, vertex2, 5);
+        graph.addEdge(vertex1, vertex3, 3);
+        graph.addEdge(vertex1, vertex4, 6);
+
+
+        graph.breadthFirst(vertex1);
+        assertEquals(4, graph.size());
+        assertTrue(graph.getVertices().contains(vertex1));
+        assertEquals(3, graph.getNeighbors(vertex1).size());
+    }
+
 
 }

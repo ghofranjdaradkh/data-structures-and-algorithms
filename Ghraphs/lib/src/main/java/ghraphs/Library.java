@@ -4,22 +4,25 @@
 package ghraphs;
 
 import java.util.Collection;
+import java.util.List;
 
 public class Library {
     public static void main(String[] args) {
         Graphs graph = new Graphs();
 
-        Vertex vertex1 = graph.addVertex(1);
-        Vertex vertex2 = graph.addVertex(2);
-        Vertex vertex3 = graph.addVertex(3);
-        Vertex vertex4 = graph.addVertex(4);
+        Vertex vertex1 = graph.addVertex("pandora");
+        Vertex vertex2 = graph.addVertex("Arendelle");
+        Vertex vertex3 = graph.addVertex("Metroville");
+        Vertex vertex4 = graph.addVertex("Monstroplolis");
 
 
         graph.addEdge(vertex1, vertex2, 5);
         graph.addEdge(vertex1, vertex3, 3);
         graph.addEdge(vertex1, vertex4, 6);
 
+        List<Vertex> breadthFirstTraversal = graph.breadthFirst(vertex1);
 
+        System.out.println("\nGraph size: " + graph.size());
 
         System.out.println("Vertices:");
         Collection<Vertex> vertices = graph.getVertices();
@@ -35,4 +38,6 @@ public class Library {
 
         System.out.println("\nGraph size: " + graph.size());
     }
+
+
 }

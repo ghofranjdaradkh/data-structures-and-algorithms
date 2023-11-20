@@ -3,9 +3,9 @@ package ghraphs;
 public class Edge<T> {
     private Vertex start;
     private Vertex end;
-    private int weight;
+    private T weight;
 
-    public Edge(Vertex start, Vertex end, int weight) {
+    public Edge(Vertex start, Vertex end, T weight) {
         this.start = start;
         this.end = end;
         this.weight = weight;
@@ -19,7 +19,7 @@ public class Edge<T> {
         return end;
     }
 
-    public int getWeight() {
+    public T getWeight() {
         return weight;
     }
 }
