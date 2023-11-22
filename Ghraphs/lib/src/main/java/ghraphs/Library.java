@@ -14,11 +14,18 @@ public class Library {
         Vertex vertex2 = graph.addVertex("Arendelle");
         Vertex vertex3 = graph.addVertex("Metroville");
         Vertex vertex4 = graph.addVertex("Monstroplolis");
+        Vertex vertex5 = graph.addVertex("Narnia");
+        Vertex vertex6 = graph.addVertex("Naboo");
 
 
         graph.addEdge(vertex1, vertex2, 5);
-        graph.addEdge(vertex1, vertex3, 3);
-        graph.addEdge(vertex1, vertex4, 6);
+        graph.addEdge(vertex2, vertex3, 3);
+        graph.addEdge(vertex2, vertex4, 6);
+        graph.addEdge(vertex3, vertex4, 6);
+        graph.addEdge(vertex3, vertex5, 6);
+        graph.addEdge(vertex3, vertex6, 6);
+        graph.addEdge(vertex6, vertex5, 6);
+        graph.addEdge(vertex4, vertex6, 6);
 
         List<Vertex> breadthFirstTraversal = graph.breadthFirst(vertex1);
 

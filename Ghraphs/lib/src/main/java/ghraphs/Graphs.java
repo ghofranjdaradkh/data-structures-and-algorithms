@@ -21,9 +21,11 @@ public class Graphs<T> {
             throw new IllegalArgumentException("Vertices must already be in the graph");
         }
 
-        List<Edge<T>> edges = adjacencyList.get(start);
-        edges.add(new Edge(start, end, weight));
-    }
+        List<Edge<T>> edgesStart = adjacencyList.get(start);
+        edgesStart.add(new Edge(start, end, weight));
+
+        List<Edge<T>> edgesEnd = adjacencyList.get(end);
+        edgesEnd.add(new Edge(end, start, weight));}
 
     public Collection<Vertex<T>> getVertices() {
         return adjacencyList.keySet();
