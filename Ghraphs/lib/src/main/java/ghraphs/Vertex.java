@@ -16,7 +16,7 @@ public class Vertex <T>{
 
     @Override
     public String toString() {
-        return (String) value;
+        return   String.valueOf(value);
 
     }
     @Override

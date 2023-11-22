@@ -5,6 +5,9 @@ package ghraphs;
 
 
 import org.junit.jupiter.api.Test;
+
+import java.util.*;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class LibraryTest {
@@ -19,13 +22,21 @@ class LibraryTest {
 
     @Test
     public void testAddEdge() {
-        Graphs graph=new Graphs();
+        Graphs graph = new Graphs();
         Vertex vertex1 = graph.addVertex(3);
         Vertex vertex2 = graph.addVertex(4);
         graph.addEdge(vertex1, vertex2, 5);
-        assertEquals(1, graph.getNeighbors(vertex1).size());
-        assertEquals(5, graph.getNeighbors(vertex1).iterator().next());
+
+        Collection<Edge<Integer>> neighbors = graph.getNeighbors(vertex1);
+        assertEquals(1, neighbors.size());
+
+        Iterator<Edge<Integer>> iterator = neighbors.iterator();
+        assertTrue(iterator.hasNext());
+
+        Edge<Integer> edge = iterator.next();
+        assertEquals(5, edge.getWeight());
     }
+
 
     @Test
     public void testGetVertices() {
@@ -85,23 +96,71 @@ class LibraryTest {
     }
     @Test
     public void testBreadthFirstTraversal() {
-   
+
+        Graphs<Integer> graph = new Graphs<>();
+        Vertex<Integer> vertex1 = graph.addVertex(1);
+        Vertex<Integer> vertex2 = graph.addVertex(2);
+        Vertex<Integer> vertex3 = graph.addVertex(3);
+        Vertex<Integer> vertex4 = graph.addVertex(4);
+        Vertex<Integer> vertex5 = graph.addVertex(5);
+
+        graph.addEdge(vertex1, vertex2, 0);
+        graph.addEdge(vertex1, vertex3, 0);
+        graph.addEdge(vertex2, vertex4, 0);
+        graph.addEdge(vertex3, vertex5, 0);
+
+
+        List<Vertex<Integer>> result = graph.breadthFirst(vertex1);
+
+
+        List<Vertex<Integer>> expectedOrder = Arrays.asList(vertex1, vertex2, vertex3, vertex4, vertex5);
+        assertEquals(expectedOrder, result);
+    }
+    @Test
+    public void testBreadthFirstTraversalWithDisconnectedGraph() {
+
         Graphs<Integer> graph = new Graphs<>();
         Vertex<Integer> vertex1 = graph.addVertex(1);
         Vertex<Integer> vertex2 = graph.addVertex(2);
         Vertex<Integer> vertex3 = graph.addVertex(3);
         Vertex<Integer> vertex4 = graph.addVertex(4);
 
-        graph.addEdge(vertex1, vertex2, 5);
-        graph.addEdge(vertex1, vertex3, 3);
-        graph.addEdge(vertex1, vertex4, 6);
+        graph.addEdge(vertex1, vertex2, 0);
+        graph.addEdge(vertex3, vertex4, 0);
+
+        List<Vertex<Integer>> result = graph.breadthFirst(vertex1);
 
 
-        graph.breadthFirst(vertex1);
-        assertEquals(4, graph.size());
-        assertTrue(graph.getVertices().contains(vertex1));
-        assertEquals(3, graph.getNeighbors(vertex1).size());
+        List<Vertex<Integer>> expectedOrder = Arrays.asList(vertex1, vertex2);
+        assertEquals(expectedOrder, result);
     }
 
+
+    @Test
+    public void testBreadthFirstTraversalWithLargeConnectedGraph() {
+        // Create a larger connected graph
+        Graphs<String> graph = new Graphs<>();
+        Vertex<String> vertexA = graph.addVertex("A");
+        Vertex<String> vertexB = graph.addVertex("B");
+        Vertex<String> vertexC = graph.addVertex("C");
+        Vertex<String> vertexD = graph.addVertex("D");
+        Vertex<String> vertexE = graph.addVertex("E");
+        Vertex<String> vertexF = graph.addVertex("F");
+        Vertex<String> vertexG = graph.addVertex("G");
+
+        graph.addEdge(vertexA, vertexB, "AB");
+        graph.addEdge(vertexA, vertexC, "AC");
+        graph.addEdge(vertexB, vertexD, "BD");
+        graph.addEdge(vertexB, vertexE, "BE");
+        graph.addEdge(vertexC, vertexF, "CF");
+        graph.addEdge(vertexC, vertexG, "CG");
+
+        // Perform breadth-first traversal starting from vertexA
+        List<Vertex<String>> result = graph.breadthFirst(vertexA);
+
+        // Verify the result
+        List<Vertex<String>> expectedOrder = Arrays.asList(vertexA, vertexB, vertexC, vertexD, vertexE, vertexF, vertexG);
+        assertEquals(expectedOrder, result);
+    }
 
 }
