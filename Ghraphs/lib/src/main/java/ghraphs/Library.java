@@ -8,14 +8,14 @@ import java.util.List;
 
 public class Library {
     public static void main(String[] args) {
-        Graphs graph = new Graphs();
+        Graphs <String> graph = new Graphs<String>();
 
-        Vertex vertex1 = graph.addVertex("pandora");
-        Vertex vertex2 = graph.addVertex("Arendelle");
-        Vertex vertex3 = graph.addVertex("Metroville");
-        Vertex vertex4 = graph.addVertex("Monstroplolis");
-        Vertex vertex5 = graph.addVertex("Narnia");
-        Vertex vertex6 = graph.addVertex("Naboo");
+        Vertex <String> vertex1 = graph.addVertex("pandora");
+        Vertex <String> vertex2 = graph.addVertex("Arendelle");
+        Vertex <String> vertex3 = graph.addVertex("Metroville");
+        Vertex <String> vertex4 = graph.addVertex("Monstroplolis");
+        Vertex <String> vertex5 = graph.addVertex("Narnia");
+        Vertex <String> vertex6 = graph.addVertex("Naboo");
 
 
         graph.addEdge(vertex1, vertex2, 5);
@@ -27,18 +27,23 @@ public class Library {
         graph.addEdge(vertex6, vertex5, 6);
         graph.addEdge(vertex4, vertex6, 6);
 
-        List<Vertex> breadthFirstTraversal = graph.breadthFirst(vertex1);
+
+
+        List<Vertex<String>> traversalResult = graph.breadthFirst(vertex1);
+
+
+        System.out.println("Breadth-First Traversal: " + traversalResult);
 
         System.out.println("\nGraph size: " + graph.size());
 
         System.out.println("Vertices:");
-        Collection<Vertex> vertices = graph.getVertices();
+        Collection<Vertex<String>> vertices = graph.getVertices();
         for (Vertex vertex : vertices) {
             System.out.println(vertex.getValue());
         }
 
         System.out.println("\nNeighbors of vertex1:");
-        Collection<Edge> neighbors = graph.getNeighbors(vertex1);
+        Collection<Edge<String>> neighbors = graph.getNeighbors(vertex1);
         for (Edge edge : neighbors) {
             System.out.println("start vertex:"+edge.getStart().getValue()+ " , End vertex: " + edge.getEnd().getValue() + ", Weight: " + edge.getWeight());
         }

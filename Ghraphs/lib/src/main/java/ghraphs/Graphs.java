@@ -11,12 +11,12 @@ public class Graphs<T> {
 
 
     public Vertex<T> addVertex(T value) {
-        Vertex vertex = new Vertex(value);
+        Vertex <T> vertex = new Vertex<T>(value);
         adjacencyList.put(vertex, new ArrayList<>());
         return vertex;
     }
 
-    public void addEdge(Vertex<T> start, Vertex<T> end, T weight) {
+    public void addEdge(Vertex<T> start, Vertex<T> end, int weight) {
         if (!adjacencyList.containsKey(start) || !adjacencyList.containsKey(end)) {
             throw new IllegalArgumentException("Vertices must already be in the graph");
         }
@@ -25,7 +25,7 @@ public class Graphs<T> {
         edgesStart.add(new Edge(start, end, weight));
 
         List<Edge<T>> edgesEnd = adjacencyList.get(end);
-        edgesEnd.add(new Edge(end, start, weight));}
+        edgesEnd.add(new Edge<T>(end, start, weight));}
 
     public Collection<Vertex<T>> getVertices() {
         return adjacencyList.keySet();
@@ -55,13 +55,13 @@ public class Graphs<T> {
             List<Edge<T>> edges = adjacencyList.get(currentVertex);
 
             if (edges != null) {
-                for (Edge edge : edges) {
-                    Vertex neighbor = edge.getEnd();
+                for (Edge<T> edge : edges) {
+                    Vertex<T> neighbor = edge.getEnd();
                     if (!visitedVertices.contains(neighbor)) {
                         visitedVertices.add(neighbor);
                         queue.add(neighbor);
                     }}}}
-        System.out.println("Breadth-First Traversal: " + visitedVertices);
+
         return visitedVertices;
     }
 
