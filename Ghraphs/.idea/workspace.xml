@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17a0c328-bd26-44ca-a339-23788b8094c6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Ghraphs.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/lib/Ghraphs.lib.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/lib/Ghraphs.lib.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/lib/Ghraphs.lib.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/lib/Ghraphs.lib.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main/java/ghraphs/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/ghraphs/Edge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main/java/ghraphs/Graphs.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/ghraphs/Graphs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/main/java/ghraphs/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/ghraphs/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/ghraphs/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/ghraphs/Vertex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/test/java/ghraphs/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/ghraphs/LibraryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,18 +59,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/CW/data-structures-and-algorithms/Ghraphs"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/CW/data-structures-and-algorithms/Ghraphs&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Gradle.LibraryTest.testBreadthFirstTraversal">
+}</component>
+  <component name="RunManager">
     <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ghraphs.Library" />
       <module name="Ghraphs.lib.main" />
@@ -89,29 +83,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="LibraryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":lib:test" />
-            <option value="--tests" />
-            <option value="&quot;ghraphs.LibraryTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
     </configuration>
     <configuration name="LibraryTest.testAddEdge" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -159,6 +130,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="LibraryTest.testBreadthFirstTraversalWithLargeConnectedGraph" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":lib:test" />
+            <option value="--tests" />
+            <option value="&quot;ghraphs.LibraryTest.testBreadthFirstTraversalWithLargeConnectedGraph&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ghraphs.lib.test" />
       <extension name="coverage">
@@ -176,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LibraryTest.testBreadthFirstTraversalWithLargeConnectedGraph" />
         <item itemvalue="Gradle.LibraryTest.testBreadthFirstTraversal" />
         <item itemvalue="Gradle.LibraryTest.testAddEdge" />
         <item itemvalue="JUnit.LibraryTest" />
         <item itemvalue="Application.Library" />
-        <item itemvalue="Gradle.LibraryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -194,16 +188,5 @@
       <updated>1700325897443</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/lib/src/main/java/ghraphs/Vertex.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

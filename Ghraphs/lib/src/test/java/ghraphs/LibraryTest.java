@@ -138,7 +138,7 @@ class LibraryTest {
 
     @Test
     public void testBreadthFirstTraversalWithLargeConnectedGraph() {
-        // Create a larger connected graph
+
         Graphs<String> graph = new Graphs<>();
         Vertex<String> vertexA = graph.addVertex("A");
         Vertex<String> vertexB = graph.addVertex("B");
@@ -148,12 +148,12 @@ class LibraryTest {
         Vertex<String> vertexF = graph.addVertex("F");
         Vertex<String> vertexG = graph.addVertex("G");
 
-        graph.addEdge(vertexA, vertexB, "AB");
-        graph.addEdge(vertexA, vertexC, "AC");
-        graph.addEdge(vertexB, vertexD, "BD");
-        graph.addEdge(vertexB, vertexE, "BE");
-        graph.addEdge(vertexC, vertexF, "CF");
-        graph.addEdge(vertexC, vertexG, "CG");
+        graph.addEdge(vertexA, vertexB, 1);
+        graph.addEdge(vertexA, vertexC, 2);
+        graph.addEdge(vertexB, vertexD, 3);
+        graph.addEdge(vertexB, vertexE, 4);
+        graph.addEdge(vertexC, vertexF, 5);
+        graph.addEdge(vertexC, vertexG, 6);
 
         // Perform breadth-first traversal starting from vertexA
         List<Vertex<String>> result = graph.breadthFirst(vertexA);
