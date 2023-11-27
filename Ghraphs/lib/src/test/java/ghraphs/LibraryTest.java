@@ -163,4 +163,56 @@ class LibraryTest {
         assertEquals(expectedOrder, result);
     }
 
+    @Test
+    public void testDepthFirstTraversal_SimpleGraph() {
+        // Create a graph
+        Graphs<Integer> graph = new Graphs<>();
+        Vertex<Integer> vertex1 = graph.addVertex(1);
+        Vertex<Integer> vertex2 = graph.addVertex(2);
+        Vertex<Integer> vertex3 = graph.addVertex(3);
+        Vertex<Integer> vertex4 = graph.addVertex(4);
+
+        graph.addEdge(vertex1, vertex2, 0);
+        graph.addEdge(vertex2, vertex3, 0);
+        graph.addEdge(vertex3, vertex4, 0);
+
+        // Perform depth-first traversal
+        List<Vertex<Integer>> traversalResult = graph.depthFirst(vertex1);
+
+        // Verify the result
+        List<Vertex<Integer>> expectedOrder = Arrays.asList(vertex1, vertex2, vertex3, vertex4);
+        assertEquals(expectedOrder, traversalResult);
+    }
+
+    @Test
+    public void testDepthFirstTraversal_DisconnectedGraph() {
+        // Create a graph with disconnected components
+        Graphs<Integer> graph = new Graphs<>();
+        Vertex<Integer> vertex1 = graph.addVertex(1);
+        Vertex<Integer> vertex2 = graph.addVertex(2);
+        Vertex<Integer> vertex3 = graph.addVertex(3);
+        Vertex<Integer> vertex4 = graph.addVertex(4);
+
+        graph.addEdge(vertex1, vertex2, 0);
+        graph.addEdge(vertex3, vertex4, 0);
+
+        // Perform depth-first traversal
+        List<Vertex<Integer>> traversalResult = graph.depthFirst(vertex1);
+
+        // Verify the result
+        List<Vertex<Integer>> expectedOrder = Arrays.asList(vertex1, vertex2);
+        assertEquals(expectedOrder, traversalResult);
+    }
+
+    @Test
+    public void testDepthFirstTraversal_EmptyGraph() {
+        // Create an empty graph
+        Graphs<String> graph = new Graphs<>();
+
+        // Perform depth-first traversal on an empty graph
+        List<Vertex<String>> traversalResult = graph.depthFirst(null);
+
+        // Verify the result (should be empty for an empty graph)
+        assertTrue(traversalResult.isEmpty());
+    }
 }

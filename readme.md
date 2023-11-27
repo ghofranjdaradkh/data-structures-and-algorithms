@@ -22,6 +22,7 @@
 | graphs                | [graphs .md](graphs.md)                                      |
 | breadth-traversal     | [graphs .md](breadth-traversal-graph.md)                     |
 | graph-business-trip   | [graph-business-trip.md](graph-business-trip.md)             |
+| graph-depth-first     | [graph-depth-first.md](graph-depth-first.md)                 |
 
 
 

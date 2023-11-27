@@ -10,29 +10,35 @@ public class Library {
     public static void main(String[] args) {
         Graphs <String> graph = new Graphs<String>();
 
-        Vertex <String> vertex1 = graph.addVertex("pandora");
-        Vertex <String> vertex2 = graph.addVertex("Arendelle");
-        Vertex <String> vertex3 = graph.addVertex("Metroville");
-        Vertex <String> vertex4 = graph.addVertex("Monstroplolis");
-        Vertex <String> vertex5 = graph.addVertex("Narnia");
-        Vertex <String> vertex6 = graph.addVertex("Naboo");
+        Vertex<String> vertexA = graph.addVertex("A");
+        Vertex<String> vertexB = graph.addVertex("B");
+        Vertex<String> vertexC = graph.addVertex("C");
+        Vertex<String> vertexD = graph.addVertex("D");
+        Vertex<String> vertexE = graph.addVertex("E");
+        Vertex<String> vertexF = graph.addVertex("F");
+        Vertex<String> vertexG = graph.addVertex("G");
+        Vertex<String> vertexH = graph.addVertex("H");
+
+        graph.addEdge(vertexA, vertexB, 0);
+        graph.addEdge(vertexB, vertexC, 0);
+        graph.addEdge(vertexB, vertexD, 0);
+        graph.addEdge(vertexD, vertexE, 0);
+        graph.addEdge(vertexC, vertexG, 0);
+        graph.addEdge(vertexG, vertexH, 0);
+        graph.addEdge(vertexD, vertexH, 0);
+        graph.addEdge(vertexF, vertexH, 0);
+        graph.addEdge(vertexH, vertexF, 0);
 
 
-        graph.addEdge(vertex1, vertex2, 5);
-        graph.addEdge(vertex2, vertex3, 3);
-        graph.addEdge(vertex2, vertex4, 6);
-        graph.addEdge(vertex3, vertex4, 6);
-        graph.addEdge(vertex3, vertex5, 6);
-        graph.addEdge(vertex3, vertex6, 6);
-        graph.addEdge(vertex6, vertex5, 6);
-        graph.addEdge(vertex4, vertex6, 6);
-
-
-
-        List<Vertex<String>> traversalResult = graph.breadthFirst(vertex1);
+        List<Vertex<String>> traversalResult = graph.breadthFirst(vertexA);
 
 
         System.out.println("Breadth-First Traversal: " + traversalResult);
+
+        List<Vertex<String>> traversalResult2 = graph.depthFirst(vertexA);
+
+
+        System.out.println("Depth-First Traversal: " + traversalResult2);
 
         System.out.println("\nGraph size: " + graph.size());
 
@@ -43,7 +49,7 @@ public class Library {
         }
 
         System.out.println("\nNeighbors of vertex1:");
-        Collection<Edge<String>> neighbors = graph.getNeighbors(vertex1);
+        Collection<Edge<String>> neighbors = graph.getNeighbors(vertexA);
         for (Edge edge : neighbors) {
             System.out.println("start vertex:"+edge.getStart().getValue()+ " , End vertex: " + edge.getEnd().getValue() + ", Weight: " + edge.getWeight());
         }
