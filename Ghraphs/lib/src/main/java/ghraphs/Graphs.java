@@ -2,7 +2,7 @@ package ghraphs;
 
 import java.util.*;
 
-public class Graphs<T> {
+public class Graphs<T extends Comparable<? super T>> {
     private Map<Vertex<T>, List<Edge<T>>> adjacencyList;
 
     public Graphs() {
@@ -11,7 +11,7 @@ public class Graphs<T> {
 
 
     public Vertex<T> addVertex(T value) {
-        Vertex <T> vertex = new Vertex<T>(value);
+        Vertex<T> vertex = new Vertex<T>(value);
         adjacencyList.put(vertex, new ArrayList<>());
         return vertex;
     }
@@ -25,7 +25,8 @@ public class Graphs<T> {
         edgesStart.add(new Edge(start, end, weight));
 
         List<Edge<T>> edgesEnd = adjacencyList.get(end);
-        edgesEnd.add(new Edge<T>(end, start, weight));}
+        edgesEnd.add(new Edge<T>(end, start, weight));
+    }
 
     public Collection<Vertex<T>> getVertices() {
         return adjacencyList.keySet();
@@ -60,11 +61,36 @@ public class Graphs<T> {
                     if (!visitedVertices.contains(neighbor)) {
                         visitedVertices.add(neighbor);
                         queue.add(neighbor);
-                    }}}}
+                    }
+                }
+            }
+        }
 
         return visitedVertices;
     }
 
-}
+    public List<Vertex<T>> depthFirst(Vertex<T> startNode) {
+        Set<Vertex<T>> visited = new HashSet<>();
+        List<Vertex<T>> result = new LinkedList<>();
 
+        depthFirstHelper(startNode, visited, result);
 
+        return result;
+    }
+
+    private void depthFirstHelper(Vertex<T> currentNode, Set<Vertex<T>> visited, List<Vertex<T>> result) {
+        if (currentNode == null || visited.contains(currentNode)) {
+            return;
+        }
+
+        visited.add(currentNode);
+        result.add(currentNode);
+
+        List<Edge<T>> edges = adjacencyList.get(currentNode);
+        if (edges != null) {
+            for (Edge<T> edge : edges) {
+                Vertex<T> neighbor = edge.getEnd();
+                depthFirstHelper(neighbor, visited, result);
+            }
+        }
+    }}

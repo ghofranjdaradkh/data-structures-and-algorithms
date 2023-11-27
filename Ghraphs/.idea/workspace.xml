@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17a0c328-bd26-44ca-a339-23788b8094c6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/ghraphs/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/ghraphs/Edge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/ghraphs/Graphs.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/ghraphs/Graphs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/main/java/ghraphs/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/main/java/ghraphs/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/test/java/ghraphs/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/test/java/ghraphs/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pic/Capture.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/../pic/Capture.PNG" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
